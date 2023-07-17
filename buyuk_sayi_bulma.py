@@ -14,3 +14,4 @@ elif c > a and c > b:
 else:
     print('Tüm sayılar eşittir.')
     
+ 
