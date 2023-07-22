@@ -1,7 +1,7 @@
 import math 
 
 print('Merhaba, Δ Hesaplama Programına Hoş Geldiniz :)')
-
+     
 a = int(input('A: '))
 b = int(input('B: '))
 c = int(input('C: '))
