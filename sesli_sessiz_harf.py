@@ -7,5 +7,5 @@ for harf in yazi:
     if harf in sesli:
         sesli_sayac +=1
  
-print('sesli harf sayisi : ', sesli_sayac)
+print('sesli harf sayisi : ', sesli_sayac)    
 print('Sessiz harf sayisi', len(yazi)-(sesli_sayac))
