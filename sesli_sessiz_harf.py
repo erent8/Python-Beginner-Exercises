@@ -1,5 +1,5 @@
 yazi = input('bir metin giriniz: ')
-
+ 
 sesli = ("a, e, ı, i, o, ö, u, ü")
 sessiz = ("z, y, v, t, ş, s, r, p, n, r, m, l, k, h, j, ğ, g, d, ç, c, b")
 sesli_sayac = 0
