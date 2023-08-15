@@ -1,0 +1,49 @@
+import random
+import time
+
+def generate_question():
+    num1 = random.randint(1, 20)
+    num2 = random.randint(1, 20)
+    operator = random.choice(['+', '-', '*', '**', '/'])
+    question = f"What is {num1} {operator} {num2}? "
+    if operator == '+':
+        answer = num1 + num2
+    elif operator == '-':
+        answer = num1 - num2
+    elif operator == '*':
+        answer = num1 * num2
+    elif operator == '**':
+        answer = num1 ** num2 
+    elif operator == '/':
+        answer = num1 // num2
+    else:
+        print("Hatalı işlem.")
+    return question, answer
+
+def main():
+    correct_answers = 0
+    total_questions = 0
+    start_time = time.time()
+    end_time = start_time + 60  # 1 dakika süre
+
+    while time.time() < end_time:
+        question, correct_answer = generate_question()
+        user_answer = input(question)
+        try:
+            user_answer = int(user_answer)
+            if user_answer == correct_answer:
+                print("Doğru!\n")
+                correct_answers += 1
+            else:
+                print(f"Yanlış. Doğru cevap: {correct_answer}\n")
+        except ValueError:
+            print("Geçersiz giriş. Lütfen bir sayı girin.\n")
+        
+        total_questions += 1
+
+    elapsed_time = time.time() - start_time
+    print(f"Süre doldu! Toplam soru sayısı: {total_questions}, Doğru cevap sayısı: {correct_answers}")
+    print(f"Süre: {elapsed_time:.2f} saniye")
+
+if __name__ == "__main__":
+    main()
