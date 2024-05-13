@@ -1,1 +1,1 @@
-# 100+ My Python Exercises
+# My Python Exercises
