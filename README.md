@@ -1,5 +1,5 @@
 # Python Beginner Exercises
-![Uploading python-logo.png…]()
+
 
 Welcome to the Python Beginner Exercises repository! This repository contains a collection of exercises designed to help beginners learn Python programming. Each exercise covers different fundamental concepts and provides hands-on practice to reinforce learning.
 
