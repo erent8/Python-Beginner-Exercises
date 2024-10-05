@@ -2,7 +2,7 @@
 from countryinfo import CountryInfo
 
 # Ülke adını gir
-country_name = input("Ülke adını gir: ")
+country_name = input("Ülke adını gir: ") 
 
 try:
     country = CountryInfo(country_name)
