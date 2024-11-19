@@ -1,7 +1,7 @@
 while True:
     baslangic = int(input("Başlangıç sayısını giriniz:  "))
     bitis = int(input("Bitiş sayısını giriniz:  "))
-
+ 
     # Başlangıç sayısının bitiş sayısından küçük olup olmadığını kontrol edilir.
 
     if baslangic > bitis:
