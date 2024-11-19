@@ -1,9 +1,3 @@
-
-
-
-
-
-
 import matplotlib.pyplot as plt  # Grafik kütüphanesi
 
 # Kullanıcıdan yarıçapı al
